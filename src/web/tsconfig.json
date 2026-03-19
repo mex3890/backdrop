@@ -1,0 +1,18 @@
+{
+  // https://nuxt.com/docs/guide/concepts/typescript
+  "files": [],
+  "references": [
+    {
+      "path": "./backdrop/.nuxt/tsconfig.app.json"
+    },
+    {
+      "path": "./backdrop/.nuxt/tsconfig.server.json"
+    },
+    {
+      "path": "./backdrop/.nuxt/tsconfig.shared.json"
+    },
+    {
+      "path": "./backdrop/.nuxt/tsconfig.node.json"
+    }
+  ]
+}

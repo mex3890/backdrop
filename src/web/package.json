@@ -1,0 +1,17 @@
+{
+  "name": "backdrop",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "node_modules/.bin/nuxt build",
+    "dev": "node_modules/.bin/nuxt dev",
+    "generate": "node_modules/.bin/nuxt generate",
+    "preview": "node_modules/.bin/nuxt preview",
+    "postinstall": "node_modules/.bin/nuxt prepare"
+  },
+  "dependencies": {
+    "nuxt": "^4.4.2",
+    "vue": "^3.5.30",
+    "vue-router": "^5.0.3"
+  }
+}
