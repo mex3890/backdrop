@@ -1,7 +1,7 @@
 # Nuxt dev/build outputs
 .output
 .data
-backdrop/.nuxt
+.nuxt
 .nitro
 .cache
 dist

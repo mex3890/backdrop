@@ -1,0 +1,31 @@
+@use "settings/container";
+@use 'settings/colors';
+@use 'settings/typograph';
+@use "settings/grid";
+@use "base/header";
+@use "base/footer";
+@use "base/main";
+@import "https://cdn.boxicons.com/fonts/basic/boxicons.min.css";
+@import "https://cdn.boxicons.com/fonts/brands/boxicons-brands.min.css";
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+html > body {
+    width: 100%;
+    min-width: grid.$extra-small-size;
+    min-height: 100vh;
+    margin: 0 auto;
+
+    > div:first-of-type {
+        display: flex;
+        flex-direction: column;
+    }
+}
+

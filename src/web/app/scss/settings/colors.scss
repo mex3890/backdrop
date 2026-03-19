@@ -1,0 +1,45 @@
+$dark1: #303b4b;
+$dark2: #303641;
+$dark3: #171921;
+$dark4: rgba(6, 8, 11, 0.71);
+$dark5: #06080b;
+
+$gray1: #dadbdd;
+$gray2: #c9c9c9;
+$gray3: #999899;
+$gray4: #686566;
+
+$white1: #ffffff;
+$white2: #f1f2f3;
+$white3: #f4f5f6;
+$white4: #e5e6e8;
+
+$red0: #f13177;
+$red1: #b11b52;
+$red2: #7a2e3a;
+$red3: #5f232d;
+$red4: #620c22;
+$transparent-red: rgba(227, 96, 128, 0.16);
+
+$yellow1: #d6aa7a;
+$yellow2: #ba7220;
+
+$orange1: #cb3f2a;
+$orange2: #74280d;
+
+$purple1: #331233;
+
+$blue1: #98a8e1;
+$blue2: #7f8de0;
+$blue3: #0e5fea;
+$blue4: #003a9a;
+
+$dark-gradient: linear-gradient(90deg, $dark4 0%, $dark3 50%, $dark3 100%);
+$white-gradient: linear-gradient(90deg, $white1 0%, $white2 50%, $white4 100%);
+$red-gradient: linear-gradient(90deg, $red3 50%, $red2 100%);
+$orange-gradient: linear-gradient(90deg, $yellow2 50%, $orange1 100%);
+$dark-orange-gradient: linear-gradient(90deg, $dark3 50%, $orange1 100%);
+$card-white-box-shadow: 0 8px 12px #1E1F2126, 0 0 1px #1E1F214F;
+$light-border: 1px solid $gray1;
+$light-border-2: 1px solid $gray2;
+$gray-icons-color: $dark4;

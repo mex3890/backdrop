@@ -1,0 +1,8 @@
+@use "header/variables" as header-variables;
+@use "main/variables";
+@use "../settings/colors";
+
+html > body > div > main {
+    height: calc(100vh - #{header-variables.$height});
+    grid-area: variables.$area;
+}

@@ -3,16 +3,16 @@
   "files": [],
   "references": [
     {
-      "path": "./backdrop/.nuxt/tsconfig.app.json"
+      "path": "./.nuxt/tsconfig.app.json"
     },
     {
-      "path": "./backdrop/.nuxt/tsconfig.server.json"
+      "path": "./.nuxt/tsconfig.server.json"
     },
     {
-      "path": "./backdrop/.nuxt/tsconfig.shared.json"
+      "path": "./.nuxt/tsconfig.shared.json"
     },
     {
-      "path": "./backdrop/.nuxt/tsconfig.node.json"
+      "path": "./.nuxt/tsconfig.node.json"
     }
   ]
 }

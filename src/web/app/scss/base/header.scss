@@ -1,0 +1,62 @@
+@use "../settings/colors";
+@use "header/variables";
+
+html > body > div > header {
+    background-color: colors.$white1;
+    height: variables.$height;
+    width: 100%;
+    grid-area: variables.$area;
+    border-bottom: colors.$light-border;
+
+    > div.container {
+        height: 100%;
+        padding: 0 20px;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+
+        > aside#services_box > ul {
+            position: absolute;
+            top: variables.$height;
+            background-color: colors.$white1;
+            width: 300px;
+            border: 1px solid colors.$white1;
+            box-shadow: colors.$card-white-box-shadow;
+            display: flex;
+            flex-direction: column;
+            padding: 10px 0;
+
+            > li {
+                width: 100%;
+                display: flex;
+                justify-content: center;
+
+                > a {
+                    width: 90%;
+                    display: flex;
+                    align-items: center;
+                    padding: 10px;
+                    gap: 10px;
+                    border-radius: 10px;
+
+                    > img {
+                        width: 30px;
+                    }
+
+                    > h4 {
+                        color: colors.$dark4;
+                        font-weight: 500;
+                    }
+
+                    &:hover {
+                        background-color: colors.$white4;
+                    }
+                }
+            }
+        }
+
+        > img.header-logo {
+            height: 80%;
+        }
+    }
+}

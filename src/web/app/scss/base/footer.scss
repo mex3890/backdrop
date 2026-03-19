@@ -1,0 +1,7 @@
+@use "footer/variables";
+
+html > body > div > footer {
+    height: variables.$height;
+    background-color: #003a9a;
+    grid-area: variables.$area;
+}
